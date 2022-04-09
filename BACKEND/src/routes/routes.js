@@ -4,7 +4,7 @@ const usersRoutes = require('./../modules/users/users.routes');
 const rescuersRoutes = require('./../modules/rescuers/rescuers.routes');
 const petsRoutes = require('./../modules/pets/pets.routes');
 const applicationsRoutes = require('./../modules/applications/applications.routes');
-const adoptersRoutes = require('./../modules/adopters/adpters.routes');
+const adoptersRoutes = require('./../modules/adopters/adopters.routes');
 const adminsRoutes = require('./../modules/admins/admins.routes');
 
 router.use('/users', usersRoutes);

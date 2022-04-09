@@ -5,7 +5,7 @@ class Pet {
     collection;
     constructor(){
         //set collection
-        this.collection = Database.collection('Pets');
+        this.collection = Database.collection('pets');
     }
 
     getAll(){

@@ -5,7 +5,7 @@ class Admin {
     collection;
     constructor(){
         //set collection
-        this.collection = Database.collection('Admins');
+        this.collection = Database.collection('admins');
     }
 
     getAll(){
