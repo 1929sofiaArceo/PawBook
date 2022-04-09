@@ -1,0 +1,17 @@
+const router = require('express').Router();
+
+const usersRoutes = require('./../modules/users/users.routes');
+const rescuersRoutes = require('./../modules/rescuers/rescuers.routes');
+const petsRoutes = require('./../modules/pets/pets.routes');
+const applicationsRoutes = require('./../modules/applications/applications.routes');
+const adoptersRoutes = require('./../modules/adopters/adpters.routes');
+const adminsRoutes = require('./../modules/admins/admins.routes');
+
+router.use('/users', usersRoutes);
+router.use('/rescuers', rescuersRoutes);
+router.use('/pets', petsRoutes);
+router.use('/applications', applicationsRoutes);
+router.use('/adopters', adoptersRoutes);
+router.use('/admins', adminsRoutes);
+
+module.exports = router;
